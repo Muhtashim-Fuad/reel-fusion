@@ -1,0 +1,80 @@
+#info-overlay
+{
+    display: flex;
+    user-select: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#info-overlay > div
+{
+    font-family: 'Segoe UI';
+    display: flex;
+    width: 75%;
+    height: fit-content;
+    letter-spacing: 0px;
+    border: 0.1px solid maroon;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.overlay-poster
+{
+    background-image: url("https://www.themoviedb.org/t/p/original/vEDPB892mKQDrbCKk2ce3DqK6I1.jpg");
+    background-size: cover;
+    background-repeat: round;
+    background-color: gold;
+    width: 240px;
+    height: 320px;
+    margin: 15px;
+    align-self: center;
+    border: 1.5px solid #454545;
+}
+
+.overlay-data
+{
+    width: 75%;
+    margin: 15px;
+}
+
+.overlay-title
+{
+    font-size: 35px;
+    letter-spacing: -0.85px;
+}
+
+.overlay-synopsis
+{
+    font-size: 12.5px;
+    font-weight: 50;
+}
+
+.overlay-attribute
+{
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+.overlay-content
+{
+    letter-spacing: 0.135px;
+    line-height: 20px;
+}
+
+hr
+{
+    border-width: 0;
+    height: 0.75px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    color: gray;
+    background-color: gray;
+}
